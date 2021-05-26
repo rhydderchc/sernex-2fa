@@ -13,5 +13,7 @@ You can see the run scripts in the `package.json` file as well.
 
 The cli is a in-built package you can use it using
 
-```sernex-2fa -add keyname ${site} ${configkey}```
+```
+sernex-2fa -add keyname ${site} ${configkey}
+```
 
