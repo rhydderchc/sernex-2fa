@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "node .electron-vue/dev-runner.js"
+    "dev": "node .electron-vue/dev-runner.js",
+    "build-web":"cross-env BUILD_TARGET=web node .electron-vue/build.js"
   },
   "keywords": [],
   "author": "",
